@@ -1,0 +1,52 @@
+G:\Omniscient\frontend\ui_desktop
+├── main.py                          # Application entry point (initializes customtkinter and main window)
+├── README.md                        # Project overview and basic usage instructions
+├── requirements.txt                 # List of Python packages and dependencies required
+├── setup.py                         # Setup file for packaging or installation if needed
+├── config                           # Configuration files and settings
+│   ├── app_config.py                # Global application settings (e.g., backend endpoints, app parameters)
+│   └── logging_config.py            # Logging configuration (log levels, formats, output targets)
+├── modules                          # Core functionality and OSINT features, organized by category
+│   ├── core                       # Essential functions already included (People Search, Threat Detection, etc.)
+│   │   ├── __init__.py              # Module initialization for core features
+│   │   ├── people_search.py         # Functions for name-based search, email lookup, phone lookup, etc.
+│   │   ├── threat_detection.py      # Threat detection, risk scoring, sentiment analysis, and alerts
+│   │   ├── data_processing.py       # Functions to manage structured/unstructured data and storage connections
+│   │   ├── web_scraping.py          # Web scraping and OSINT automation using tools like Scrapy and Selenium
+│   │   └── security_compliance.py   # Security functions including encryption, authentication, and compliance
+│   └── addons                       # Optional advanced features and future enhancements
+│       ├── __init__.py              # Module initialization for addons
+│       ├── ai_predictive.py         # Advanced AI and predictive threat analysis (deepfake detection, etc.)
+│       ├── enhanced_search.py       # Enhanced search functions (e.g., reverse image search, email pattern recognition)
+│       ├── geospatial_tracking.py   # Geolocation analysis, satellite image processing, and heatmaps
+│       └── real_time_surveillance.py# Real-time surveillance and live feed analysis (ALPR, video analytics)
+├── services                         # External interfaces and backend connector modules
+│   ├── __init__.py                  # Module initialization for services
+│   ├── backend_connector.py         # Interface for connecting to the backend without creating tight coupling
+│   └── data_sync.py                 # Handles periodic or real-time data synchronization with the backend
+├── ui_components                    # Reusable user interface components and custom widgets
+│   ├── __init__.py                  # Module initialization for UI components
+│   ├── custom_widgets.py            # Custom widgets built with customtkinter (buttons, labels, panels, etc.)
+│   ├── layout_manager.py            # Module for managing layouts and organizing UI components
+│   └── dialogs.py                   # Common dialogs (error messages, alerts, confirmation boxes)
+├── utils                            # General utilities and helper functions for error handling, logging, etc.
+│   ├── __init__.py                  # Module initialization for utilities
+│   ├── error_handler.py             # Centralized error and exception handling routines
+│   ├── logger.py                    # Logging abstraction and helper functions
+│   ├── common.py                    # Common helper functions used across the application
+│   └── validators.py                # Functions for validating and sanitizing user input and data
+├── assets                           # Static files for the application (images, fonts, styles)
+│   ├── images                       # Directory containing icons and images used in the UI
+│   ├── fonts                        # Custom fonts for UI customization
+│   └── styles                       # Additional style sheets or theme definitions
+├── tests                            # Unit and integration tests for all components
+│   ├── __init__.py                  # Module initialization for tests
+│   ├── test_core.py                 # Tests for core modules
+│   ├── test_addons.py               # Tests for addon modules and extra features
+│   ├── test_services.py             # Tests for backend connectivity and services
+│   ├── test_ui.py                   # Tests for UI components and layout functionality
+│   └── test_utils.py                # Tests for utility functions and error handling
+└── docs                             # Documentation and design documents
+    ├── architecture.md              # Overview of system architecture and module interactions
+    ├── design.md                    # Detailed design decisions and UI/UX guidelines
+    └── user_manual.md               # Instructions and manuals for end-users

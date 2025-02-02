@@ -1,0 +1,14 @@
+{
+    "appearance_mode": "Dark",
+    "font_size": 27,
+    "auto_complete_enabled": false,
+    "show_advanced_filters": false,
+    "custom_primary_color": "#f8497d",
+    "custom_accent_color": "#b90746",
+    "auto_dark_mode": false,
+    "selected_language": "de",
+    "layout_spacing": 26,
+    "log_level": "INFO",
+    "notifications_enabled": true,
+    "sound_enabled": true
+}

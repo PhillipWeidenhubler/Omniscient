@@ -1,0 +1,61 @@
+Auflistung der Ordnerpfade für Volume Volume (HDD)
+Volumeseriennummer : F01F-307F
+G:\OMNISCIENT
+|   project_tree.txt
+|   
+\---frontend
+    \---ui_desktop
+        |   __init__.py
+        |   
+        +---core
+        |   |   core.py
+        |   |   module_loader.py
+        |   |   __init__.py
+        |   |   
+        |   \---__pycache__
+        |           core.cpython-310.pyc
+        |           module_loader.cpython-310.pyc
+        |           __init__.cpython-310.pyc
+        |           
+        \---modules
+            |   sub_module_loader.py
+            |   __init__.py
+            |   
+            +---md_config
+            |   |   modules_config.json
+            |   |   ui_md_config_updater.py
+            |   |   __init__.py
+            |   |   
+            |   \---__pycache__
+            |           ui_md_config_updater.cpython-310.pyc
+            |           __init__.cpython-310.pyc
+            |           
+            +---ui_md_dashboard
+            |       dashboard.py
+            |       
+            +---ui_md_navigation
+            |   |   navigation.py
+            |   |   __init__.py
+            |   |   
+            |   \---__pycache__
+            |           navigation.cpython-310.pyc
+            |           __init__.cpython-310.pyc
+            |           
+            +---ui_md_theme
+            |   |   core_theme.py
+            |   |   darkmode.py
+            |   |   greymode.py
+            |   |   light_blue.py
+            |   |   __init__.py
+            |   |   
+            |   \---__pycache__
+            |           core_theme.cpython-310.pyc
+            |           darkmode.cpython-310.pyc
+            |           greymode.cpython-310.pyc
+            |           light_blue.cpython-310.pyc
+            |           __init__.cpython-310.pyc
+            |           
+            \---__pycache__
+                    sub_module_loader.cpython-310.pyc
+                    __init__.cpython-310.pyc
+                    
